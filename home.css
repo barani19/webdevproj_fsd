@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+   
+}
+.banner{
+    min-height: 80vh;
+    width: 100%;
+    background-image: url("R.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.banner {
+    color: white;
+}
+.header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.nav{
+    display: flex;
+}
+.nav span{
+    margin-right: 20px;
+}
+.butt span{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 4px 10px;
+}
+
+.section1{
+    display: flex;
+}
+.right img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.section1 .left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section1 .left .tcont{
+    width: 70%;
+}
+
+
+.section2 {
+    display: flex;
+}
+.section2 .left img{
+    height: 100%;
+    width: 97%;
+    object-fit: cover;
+}
+.section2 .tcont{
+    width: 70%;
+}
+.section2 .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cimg{
+    height: 80px;
+    width: 80px;
+    border: 2px solid lightblue;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.cimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.section3 h1{
+    padding-bottom: 30px;
+}
+.clients {
+    display: flex;
+    justify-content: space-evenly;
+}
+.clients .client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0.3;
+}
+.client p{
+    text-align: center;
+    line-height: 1.3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.client .det{
+    margin-bottom: 30px;
+}
+
+.footer{
+    background: linear-gradient(to right,rgb(223, 216, 29),rgb(84, 211, 116),rgb(57, 56, 56));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.footer h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navpag {
+    display: flex;
+}
+.navpag div{
+    margin-right: 20px;
+}
+
+.section1 .left{
+    background: linear-gradient(to bottom right,rgba(51, 204, 228, 0.75),rgba(100, 220, 186, 0.75),rgb(209, 95, 188));
+}
+.section2{
+    background: linear-gradient(to bottom right,rgb(220, 105, 105),rgb(222, 212, 101),rgb(98, 89, 219));
+}
+.section3{
+    background: linear-gradient(to bottom right,rgb(128, 222, 130),rgb(151, 127, 231),rgb(224, 119, 193));
+}
